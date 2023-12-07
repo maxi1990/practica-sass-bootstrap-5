@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+           
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 nav-form-control"  type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   </header>    
+
+
+   <main class="bg-light container mt-n5 ">
+       <h1 class="text-center py-5 display-6">Contacto.</h1>
+       <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempora quo, beatae inventore est cumque harum vitae magni placeat voluptatum perspiciatis, veritatis dolorem earum, animi repudiandae iste modi consequatur illum?</p>
+
+
+       <div class=" py-5">
+
+        <form class="row g-3 needs-validation" novalidate>
+
+            <div class="col-md-4">
+                <label for="text-1" class="form-label">Nombre</label>
+                <input type="text" name="" id="text-1" class="form-control" required value="max">
+                <div class="valid-feedback">
+                    perfecto, todo correcto
+                </div>
+            </div>
+
+            
+
+            <div class="col-md-4">
+                <label for="text-2" class="form-label">Lastname</label>
+                <input type="text" name="" id="text-2" class="form-control" required >
+                <div class="invalid-feedback">
+                    looks good
+                </div>
+            </div>
+
+           
+
+            <div class="col-md-4">
+                <label for="text-2" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                      <span class="input-group-text" id="iconoUserName">@</span>
+                      <input type="text" name="" id="text-3" class="form-control" required aria-describedby="iconoUserName" >
+                      <div class="invalid-feedback">
+                        coloque su Nombre
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-6">
+                <label for="text-4" class="form-label">City</label>
+                <input type="text" name="" id="text-4" class="form-control" required >
+
+                <div class="invalid-feedback">
+                    coloque su ciudad
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="text-5" class="form-label">State</label>
+                <select class="form-select" name="" id="text-5" required>
+                    <option value="" selected disabled>Choose</option>
+                    <option value="">...</option>
+                </select>
+                <div class="invalid-feedback">
+                    coloque su estado
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="text-6" class="form-label">Zip</label>
+                <input type="text" name="" id="text-6" class="form-control" required >
+
+                <div class="invalid-feedback">
+                    coloque su zip
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" name="" id="text-7" class="form-check-input">
+                    <label class="form-check-label" for="text-7">Acepte las condiciones</label>
+                    <div class="invalid-feedback">
+                        acepte las condiciones
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Procesar...</button>
+            </div>
+
+        </form>
+       
+       </div>
+
+      
+       
+   </main>
+
+
+   <footer class="text-center my-5">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ex dolores natus.</p>
+   </footer>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
